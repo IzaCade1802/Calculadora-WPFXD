@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Calculadora_23CV</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CHAYANNE.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="CHAYANNE.jpg" />
+  </ItemGroup>
+
+</Project>
